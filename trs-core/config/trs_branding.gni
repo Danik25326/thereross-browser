@@ -1,0 +1,32 @@
+# =============================================================================
+# TRS Browser — trs_branding.gni
+# Конфігурація брендингу для системи білду Chromium (GN).
+# Цей файл підключається з args.gn і визначає назву, версію, іконки.
+# =============================================================================
+
+# Назва продукту
+trs_product_name = "Thereross"
+trs_short_name   = "TRS"
+trs_company_name = "Thereross Browser Project"
+
+# Версія (major.minor.patch.build)
+trs_version_major = 0
+trs_version_minor = 1
+trs_version_patch = 0
+trs_version_build = 1
+
+# Домен і сайт
+trs_homepage_url  = "https://thereross.ua"
+trs_update_url    = "https://updates.thereross.ua/releases"
+trs_help_url      = "https://thereross.ua/help"
+
+# Шлях до іконок (відносно chromium/src/)
+trs_icon_dir = "//trs/resources/icons"
+
+# ID для Google Services (залиш порожнім — TRS не використовує Google sync)
+trs_google_api_key         = ""
+trs_google_default_client_id     = ""
+trs_google_default_client_secret = ""
+
+# Канали релізу
+trs_channel = "dev"  # dev | beta | stable
